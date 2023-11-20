@@ -32,7 +32,7 @@ Menu mode;
 char buf[32];
 int volume, set_volume;
 int botol, set_botol;
-bool START, STOP, CR, last_cr;
+bool START, STOP, CR, last_cr; 
 
 void setup() {
   Serial.begin(9600);
